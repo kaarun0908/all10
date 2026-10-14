@@ -10,7 +10,7 @@ public class VowelCountTest {
         assertEquals(5, VowelCount.countVowels("aeiou"));
         assertEquals(5, VowelCount.countVowels("AEIOU"));
         assertEquals(2, VowelCount.countVowels("Hello"));
-        assertEquals(3, VowelCount.countVowels("Java Program"));
+        assertEquals(4, VowelCount.countVowels("Java Program"));
     }
 
     @Test
